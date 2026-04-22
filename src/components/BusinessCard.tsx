@@ -119,7 +119,7 @@ export const BusinessCard: React.FC<BusinessCardProps> = ({
           className="relative overflow-hidden group/btn rounded-[2rem] border border-google-blue/20 px-6 py-3 transition-transform duration-300 ease-[cubic-bezier(0.33,1,0.68,1)] hover:scale-[1.02] w-full bg-canvas text-center"
         >
           <span className="relative z-10 font-sans text-[0.65rem] uppercase tracking-widest text-google-blue group-hover/btn:text-white transition-colors duration-500 font-bold">
-            {isExpanded ? 'Contraer Ficha' : 'Desplegar Información'}
+            {isExpanded ? 'Ocultar Detalles' : 'Ver Detalles'}
           </span>
           <span className="absolute inset-0 z-0 bg-google-blue translate-y-[101%] group-hover/btn:translate-y-0 transition-transform duration-500 ease-[cubic-bezier(0.33,1,0.68,1)] rounded-[2rem]" />
         </button>
