@@ -110,9 +110,14 @@ export default function Home() {
                 name={b.name}
                 category={b.category}
                 description={b.description}
-                // Soportamos nombramiento snake_case (típico DB) y camelCase
                 imageUrl={(b.imageUrl || b.image_url) as string} 
                 rating={b.rating}
+                phone={b.phone}
+                web_url={b.web_url}
+                facebook_url={b.facebook_url}
+                tiktok_url={b.tiktok_url}
+                latitude={b.latitude}
+                longitude={b.longitude}
               />
             ))}
           </div>
