@@ -15,6 +15,12 @@ interface Business {
   image_url?: string; 
   rating: number;
   is_visible: boolean;
+  phone?: string;
+  web_url?: string;
+  facebook_url?: string;
+  tiktok_url?: string;
+  latitude?: string;
+  longitude?: string;
 }
 
 export default function Home() {
